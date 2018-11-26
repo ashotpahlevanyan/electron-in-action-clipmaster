@@ -10,7 +10,8 @@
   "author": "Steve Kinney <hello@stevekinney.net> (http://stevekinney.net)",
   "license": "MPLv2",
   "dependencies": {
-    "electron": "1.8.8"
+    "electron": "1.8.8",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "eslint": "4.17.0"
