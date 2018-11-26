@@ -91,6 +91,7 @@ const updateMenu = () => {
 
 const addClipping = () => {
 	const clipping = clipboard.readText();
+	if(clipping.trim() === '') return;
 	const index = clippings.indexOf(clipping);
 	if(index !== -1) {
 		const text = 'Clipping Exists' + (index < 10 ? `, Use CMD+${index} to Access` : '');
